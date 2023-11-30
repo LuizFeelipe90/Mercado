@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgba(255, 0, 0,0.8);
+}
+.card{
+    margin-right: -450px;
+    position: absolute;
+    border: 1px solid red;
+    width: 350px;
+    height: 480px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(22, 20, 20,0.9);
+    z-index: 1;
+}
+.logo{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 370px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size: 32px;
+    font-weight: bolder;
+    color: red;
+    padding: 20px;
+}
+h2{
+    font-size: 15px;
+    color: white;
+    font-weight: bolder;
+}
+.usuario{
+    width: 250px;
+    height: 30px;
+    margin-top: 30px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid red;
+    border-radius: 8px;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+}
+
+.senha{
+    width: 250px;
+    height: 30px;
+    margin-top: 30px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid red;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+
+.logar{
+    position: absolute;
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    color: white;
+    margin-left: -3px;
+    margin-top: 410px;
+    padding: 3px 82px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: red;
+    border: none;
+    transition: 0.5s ease;
+}
+.logar:hover{
+    background-color: transparent;
+    color: white;
+   
+    border: 1px solid red;
+}
+
+
+.imagemfront{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.imagem{
+    
+    width: 600px;
+    height: 600px;
+    background: url('/assets/image/logo1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    
+}

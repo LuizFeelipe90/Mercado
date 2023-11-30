@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/chat.css">
+      
+
+    <title>Chat de Interação</title>
+</head>
+<body>
+     
+    <button onclick="voltar()">Voltar</button>
+    <script type="text/javascript">
+        function voltar(){
+           // Limpar dados da sessão (simulado)
+            sessionStorage.clear(); // ou sessionStorage.removeItem('nomeDaChave');
+
+            // Redirecionar para a tela index
+            window.location.href = 'buscarcestas.html';
+        }
+    </script>
+         
+
+       
+
+     <div class="chat">
+        <div class="chat-h">
+            <h1>Chat de Interação</h1>
+        </div>
+        <div class="chat-mes">
+            <!-- Mensagens do chat apareceriam aqui -->
+        </div>
+        <div class="chat-i">
+            <input type="text" id="messageInput" placeholder="Digite sua mensagem...">
+            <button onclick="sendMessage()">Enviar</button>
+        </div>
+    </div>
+    
+    <script src="javascript/chat.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/buscarcestas.css">
+    <title>Amz cadastro Ususario</title>
+
+</head>
+<body>
+    <button class="btn_sair" onclick="logout()">Sair</button>
+    <br><br><br><br><br><br><br>
+    <h1>Olá bem Vindo Ricardo!</h1>
+
+
+    <input type="text" id="salarioo"  placeholder="Digite seu Sálario">
+    <br><br><br>
+    <button class="teste" onclick="">Buscar</button> 
+
+    <script src="javascript/salario.js"></script>
+
+   
+
+    <script>
+        // Função para destruir a sessão e redirecionar para a tela index
+        function logout() {
+            // Limpar dados da sessão (simulado)
+            sessionStorage.clear(); // ou sessionStorage.removeItem('nomeDaChave');
+
+            // Redirecionar para a tela index
+            window.location.href = 'index.html';
+        }
+    </script>
+</body>
+</html>
+</body>
+</html>
